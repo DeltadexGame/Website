@@ -69,7 +69,7 @@ Vue.component('navi', {
 <p id="error">{{ error }}</p>
       <div v-if="register">
               <button v-on:click="login">Register</button>
-              <input type="text" name="Uname" v-model="UserName" placeholder="Username">
+              <input type="password" name="Uname" v-model="UserName" placeholder="Username">
               <input type="password" name="Pword" placeholder="Password">
               <input type="text" name="Email" placeholder="Email">
       </div>
@@ -273,7 +273,13 @@ margin-left:45%
 }
 
 #download {
+<<<<<<< HEAD
+margin-LEFT: auto;
+margin-right:auto;
+float:left;
+=======
 width: 100%;
+>>>>>>> 10f8819fc5d53f66a403256cb14f7949a22694ff
 }
 
 #error {
