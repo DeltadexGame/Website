@@ -13,6 +13,7 @@
                   <li><button v-on:click="won">Win!</button></li>
                   <li><button v-on:click="lost">Lose!</button></li>
             </div>
+			<container></container>
         </div>
 
         <!--Logged Out-->
@@ -39,6 +40,7 @@
 
 <script>
 /* eslint-disable */
+import container from '@/components/container.vue'
 export default {
   name: 'Navigation',
   props: {
@@ -88,6 +90,9 @@ export default {
       }
 
     }
+  },
+  component{
+  container
   },
   computed: {
     kd () {
