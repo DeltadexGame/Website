@@ -79,6 +79,9 @@ export default {
 	  height: 1em;
 	}
 
+	#inspire{
+	color:blue;
+	}
 	aside{
 	  border-style: inset;
 	  background-color: 660000;

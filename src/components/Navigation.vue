@@ -43,7 +43,9 @@
 import container from '@/components/container.vue'
 export default {
   name: 'Navigation',
-  props: {
+  props: {},
+  data() {
+    return {
     reglog: 'Register',
     show: true,
     wins: 0,
@@ -54,7 +56,8 @@ export default {
     test: 0,
     inStock: true,
     variants: [],
-    error: ''
+    error: '',
+	}
   },
   methods: {
     logout () {

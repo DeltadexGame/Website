@@ -86,11 +86,12 @@
 <style scoped>
 img{
 	  height: 1em;
+	  width: 1em;
 	}
 
 	aside{
 	  border-style: inset;
-	  background-color: 660000;
+	  background-color: white;
 	  left: 90%;
 	  position: fixed;
 	  top: 0;
