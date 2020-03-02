@@ -21,7 +21,7 @@
 	import product from '@/components/product.vue'
 	export default {
 	  name: 'container',
-	  props{
+	  props: {
 	  
 	  },
 		data() {

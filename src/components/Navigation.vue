@@ -91,8 +91,8 @@ export default {
 
     }
   },
-  components{
-	container
+  components: {
+	container,
   },
   computed: {
     kd () {
