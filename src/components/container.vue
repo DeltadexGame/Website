@@ -83,3 +83,4 @@
 	  }
 	}
 </script>
+<style scoped></style>
