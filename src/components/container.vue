@@ -83,4 +83,8 @@
 	  }
 	}
 </script>
-<style scoped></style>
+<style scoped>
+*{
+color: blue;
+}
+</style>
