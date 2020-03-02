@@ -84,7 +84,21 @@
 	}
 </script>
 <style scoped>
-*{
-color: blue;
-}
+img{
+	  height: 1em;
+	}
+
+	aside{
+	  border-style: inset;
+	  background-color: 660000;
+	  left: 90%;
+	  position: fixed;
+	  top: 0;
+	  padding-bottom:100%;
+	}
+
+	.product{
+	  height:250px;
+	  width:200px;
+	}
 </style>
