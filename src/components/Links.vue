@@ -3,6 +3,12 @@
         <li><a href="">Home</a></li>
         <li><a>Support</a>
         <li><a>News</a></li>
+
+           <v-btn icon class="align-self-start" size="28">
+        <v-icon>mdi-arrow-right-thick</v-icon>
+      </v-btn>
+
+      
         <Navigation></Navigation>
     </div>
 </template>

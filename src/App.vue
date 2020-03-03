@@ -1,5 +1,14 @@
 <template>
-  <div id="home">
+  <v-app>
+    <v-app-bar
+      app
+      color="primary"
+      dark>
+    </v-app-bar>
+
+    <v-content>
+          
+    <div id="home">
 
     <nav class="user">
       <Links></Links>
@@ -11,19 +20,28 @@
     </header>
     <a id="download" href="https://www.coolmathgames.com/0-orcs-vs-elves">Download Now</a>
   </div>
+
+
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import Links from '@/components/Links.vue'
+import Links from './components/Links';
 
 export default {
   name: 'App',
-  components: {
-    Links
 
-  }
-}
+  components: {
+    Links,
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
+
 
 <style>
 *{
