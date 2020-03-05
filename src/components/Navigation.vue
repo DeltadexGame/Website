@@ -24,7 +24,7 @@
             <p id="error">{{ error }}</p>
             <div v-if="register">
                     <button v-on:click="login">Register</button>
-                    <input type="password" name="Uname" v-model="UserName" placeholder="Username">
+                    <input type="text" name="Uname" v-model="UserName" placeholder="Username">
                     <input type="password" name="Pword" placeholder="Password">
                     <input type="text" name="Email" placeholder="Email">
             </div>
