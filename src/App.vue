@@ -18,7 +18,7 @@
         <img src="./assets/logo.png" alt="The delta dex logo">
       </h1>
     </header>
-    <a id="download" href="https://www.coolmathgames.com/0-orcs-vs-elves">Download Now</a>
+    <a id="download" href="https://github.com/DeltadexGame/Launcher/releases/tag/0.9.0">Download Now</a>
   </div>
 
 
